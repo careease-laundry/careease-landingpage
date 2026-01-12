@@ -7,6 +7,9 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'CareEase - Premium Laundry Service in Australia',
   description: 'Professional laundry and dry cleaning services delivered to your doorstep. CareEase makes laundry easy.',
+  verification: {
+    google: 'fsZOlhpocvPtSlrShbU5uBoW-A043wPSS0T6bVjkzXU',
+  },
 }
 
 export default function RootLayout({
