@@ -50,9 +50,22 @@ export default function Home() {
               We pick up, clean, and deliver your clothes right to your doorstep in Australia.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-primary-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-700 transition shadow-lg">
-                Download App
-              </button>
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.careease.users"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-primary-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-700 transition shadow-lg text-center"
+                >
+                  Download User App
+                </a>
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.careease.vendor"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-primary-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-700 transition shadow-lg text-center"
+                >
+                  Download Vendor App
+                </a>
               <button className="border-2 border-primary-600 text-primary-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-50 transition">
                 Learn More
               </button>
