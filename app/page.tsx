@@ -46,26 +46,34 @@ export default function Home() {
               <span className="block text-primary-600">Delivered to Your Door</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-              Experience the convenience of professional laundry and dry cleaning services. 
+              Experience the convenience of professional laundry and dry cleaning services.
               We pick up, clean, and deliver your clothes right to your doorstep in Australia.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a
-                  href="https://play.google.com/store/apps/details?id=com.careease.users"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-primary-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-700 transition shadow-lg text-center"
-                >
-                  Download User App
-                </a>
-                <a
-                  href="https://play.google.com/store/apps/details?id=com.careease.vendor"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-primary-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-700 transition shadow-lg text-center"
-                >
-                  Download Vendor App
-                </a>
+            <div className="flex flex-col sm:flex-row flex-wrap gap-4 justify-center">
+              <a
+                href="https://testflight.apple.com/join/W9zhSwnX"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-primary-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-700 transition shadow-lg text-center"
+              >
+                Download User App
+              </a>
+              <a
+                href="https://testflight.apple.com/join/AGGMDhpe"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-primary-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-700 transition shadow-lg text-center"
+              >
+                Download Vendor App
+              </a>
+              <a
+                href="https://testflight.apple.com/join/pDspMAuw"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-primary-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-700 transition shadow-lg text-center"
+              >
+                Download Delivery App
+              </a>
               <button className="border-2 border-primary-600 text-primary-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-50 transition">
                 Learn More
               </button>
