@@ -15,7 +15,9 @@ body {
 }
 
 body {
-  color: #1f2937;
-  background: #ffffff;
+  color: #1d1d1f; /* Apple-like dark gray */
+  background: #fbfbfd; /* Apple-like off-white background */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
